@@ -1,13 +1,11 @@
 {
     "include": [
-        "src/content.ts", "src/popup.ts", "src/background.ts", "src/values.ts"
+        "src/content.ts", "src/popup.ts", "src/background.ts", "src/values.ts", "src/captchaSolver.ts"
     ],
     "compilerOptions": {
-        "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true,
         "target": "es2015",
         "rootDir": "src",
         "outDir": "dist",

@@ -1,12 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.WORLD_NUMBER = "134";
-exports.PLAYER_VILLAGE_ID = "29595";
-exports.LINK_PART_MAIN = "screen=overview";
-exports.LINK_PART_PLACE = "screen=place";
-exports.LINK_PART_VILLAGE = "screen=info_village";
-exports.LINK_PART_MAP = "screen=map";
-exports.LINK_MAP = "https://pl${WORLD_NUMBER}.plemiona.pl/game.php?village=${PLAYER_VILLAGE_ID}&${LINK_PART_MAP}";
-exports.LINK_PLACE = "https://pl${WORLD_NUMBER}.plemiona.pl/game.php?village=${PLAYER_VILLAGE_ID}&${LINK_PART_PLACE}";
-exports.LINK_MAIN = "https://pl${WORLD_NUMBER}.plemiona.pl/game.php?village=${PLAYER_VILLAGE_ID}&${LINK_PART_MAIN}";
-//# sourceMappingURL=values.js.map
+export const WORLD_NUMBER = "134";
+export const PLAYER_VILLAGE_ID = "29595";
+export const LINK_PART_MAIN = "screen=overview";
+export const LINK_PART_PLACE = "screen=place";
+export const LINK_PART_VILLAGE = "screen=info_village";
+export const LINK_PART_MAP = "screen=map";
+export const LINK_PART_SESSION_EXPIRED = "session_expired=1";
+export const LINK_MAIN_PLEMIONA = "https://www.plemiona.pl/";
+export const LINK_MAP = "https://pl${WORLD_NUMBER}.plemiona.pl/game.php?village=${PLAYER_VILLAGE_ID}&${LINK_PART_MAP}";
+export const LINK_PLACE = "https://pl${WORLD_NUMBER}.plemiona.pl/game.php?village=${PLAYER_VILLAGE_ID}&${LINK_PART_PLACE}";
+export const LINK_MAIN = "https://pl${WORLD_NUMBER}.plemiona.pl/game.php?village=${PLAYER_VILLAGE_ID}&${LINK_PART_MAIN}";
+export const MSG_SCRIPT_ENABLED = "ScriptEnabled";
+export const MSG_SCRIPT_DISABLED = "ScriptDisabled";

@@ -4,4 +4,3 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         sendResponse({ isCaptcha: isCaptcha });
     }
 });
-//# sourceMappingURL=content.js.map

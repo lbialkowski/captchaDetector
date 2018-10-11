@@ -39,4 +39,3 @@ document.addEventListener('DOMContentLoaded', () => {
     var toggleBtnScript = document.getElementById('toggleBtnScript');
     toggleBtnScript.addEventListener("click", toggleScript, false);
 });
-//# sourceMappingURL=popup.js.map
