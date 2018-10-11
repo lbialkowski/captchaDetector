@@ -1,0 +1,39 @@
+{
+  "name": "Plemiona's Bot",
+  "description": "Allowing Farming in Plemiona",
+  "version": "3.0",
+  "permissions": [
+	 "https://www.plemiona.pl/*",
+   "https://pl134.plemiona.pl/*",
+   "<all_urls>",
+    "activeTab",
+    "tabs",
+    "storage",
+    "background",
+	"webNavigation"
+  ],
+  
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.plemiona.pl/*", "https://pl134.plemiona.pl/*", "<all_urls>"],
+      "js": ["content.js"],
+	  "run_at": "document_end"
+    }
+  ],
+  
+  "browser_action": {
+    "default_popup": "popup.html",
+      "default_title": "PlemionaBot"
+    },
+
+    "web_accessible_resources": [
+      "values.js"
+   ],
+
+  "manifest_version": 3
+}

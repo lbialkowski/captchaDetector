@@ -1,0 +1,32 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+
+<head>
+	<title>Getting Started Extension's Popup</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<style type="text/css">
+		body {
+
+			width: 400px;
+
+		}
+	</style>
+	<script src="popup.js"></script>
+</head>
+
+<body>
+	<div class="card-header">
+		<h4>Plemiona Script</h4>
+	</div>
+	<div clsss="card-body">
+			<button id = "toggleBtnScript" type="button" class="btn btn-success btn-block btn-md">Enable bot</button>
+	</div>
+</body>
+
+</html>
